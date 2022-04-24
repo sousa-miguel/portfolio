@@ -22,14 +22,14 @@ const projects = [
     Previewlink: 'https://forkify-sousa.netlify.app/',
     Githublink: 'https://github.com/sousa-miguel/Forkify',
   },
-  {
-    title: 'Discord Music Bot (WIP)',
-    cardImage: 'assets/images/project-page/discord.png',
-    description: 'Discord Music Bot',
-    tagimg: 'https://nodejs.org/static/images/logo.svg',
-    Previewlink: '',
-    Githublink: 'https://github.com/sousa-miguel/discord-bot',
-  },
+  // {
+  //   title: 'Discord Music Bot (WIP)',
+  //   cardImage: 'assets/images/project-page/discord.png',
+  //   description: 'Discord Music Bot',
+  //   tagimg: 'https://nodejs.org/static/images/logo.svg',
+  //   Previewlink: '',
+  //   Githublink: 'https://github.com/sousa-miguel/discord-bot',
+  // },
 ];
 
 // function for rendering project cards data
