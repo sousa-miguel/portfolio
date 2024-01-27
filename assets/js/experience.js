@@ -5,11 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector('.experience-cards');
 const exp = [
   {
+    title: 'DevOps Engineer',
+    cardImage: 'assets/images/experience-page/ctw.png',
+    place: 'Critical TechWorks',
+    time: '(Jun, 2022 - Present)',
+    desp: '<li>TBD</li>',
+  },
+  {
     title: 'Outsystems Developer',
     cardImage: 'assets/images/experience-page/nexllence.png',
     place: 'Nexllence, powered by Glintt',
-    time: '(Oct, 2020 - present)',
-    desp: '<li>Worked on a responsive web application (desktop first) for AppsForGood Portugal to provide a platform with courses for students;</li><li>Worked on a web application for PassMusica to manage contracts and licesing requests;</li><li>Built a web application for Galp to manage contracts and its SLAs, projects and consultation processes.</li>',
+    time: '(Oct, 2020 - Jun, 2022)',
+    desp: '<li>Worked on a responsive web application (desktop first) for AppsForGood Portugal to provide a platform with courses for students;</li><li>Worked on a web application for PassMusica to manage contracts and licensing requests;</li><li>Built a web application for Galp to manage contracts and its SLAs, projects and consultation processes.</li>',
   },
   {
     title: 'Outsystems Developer Intern',
