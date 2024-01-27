@@ -4,53 +4,47 @@ AOS.init();
 
 const techStackCards = document.querySelector('.techstack-box');
 const techStack = [
-  {
-    langImage: 'assets/images/techstack-page/node.png',
-    langName: 'Node',
-    langDesc:
-      '<li>Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser</li>',
-  },
-  {
-    langImage: 'assets/images/techstack-page/javascript.png',
-    langName: 'JavaScript',
-    langDesc:
-      '<li>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</li>',
-  },
-  {
+    {
     langImage: 'assets/images/techstack-page/git.png',
     langName: 'Git',
     langDesc:
       '<li>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</li>',
   },
   {
-    langImage: 'assets/images/techstack-page/mongodb.png',
-    langName: 'MongoDB',
+    langImage: 'assets/images/techstack-page/terraform.png',
+    langName: 'Terraform',
     langDesc:
-      '<li>MongoDB is a source-available cross-platform document-oriented database program.</li>',
+      '<li>Terraform is an infrastructure-as-code software tool that uses a declarative configuration language known as HashiCorp Configuration Language, or optionally JSON</li>',
   },
   {
-    langImage: 'assets/images/techstack-page/sql.png',
-    langName: 'SQL',
+    langImage: 'assets/images/techstack-page/kubernetes.png',
+    langName: 'Kubernetes',
     langDesc:
-      '<li>SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system. </li>',
+      '<li>Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management.</li>',
   },
   {
-    langImage: 'assets/images/techstack-page/html.png',
-    langName: 'HyperText Markup Language',
+    langImage: 'assets/images/techstack-page/aws.png',
+    langName: 'AWS',
     langDesc:
-      '<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>',
+      '<li>Amazon Web Services (AWS) is a cloud computing platform provided by Amazon that includes a mixture of infrastructure-as-a-service (IaaS), platform-as-a-service (PaaS) and packaged-software-as-a-service (SaaS) offerings</li>',
   },
   {
-    langImage: 'assets/images/techstack-page/css.png',
-    langName: 'Cascading Style Sheets',
+    langImage: 'assets/images/techstack-page/gha.png',
+    langName: 'GitHub Actions',
     langDesc:
-      '<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>',
+      '<li>GitHub Actions is a continuous integration and continuous delivery (CI/CD) platform that allows to automate builds, tests, and deployment pipelines.</li>',
   },
   {
-    langImage: 'assets/images/techstack-page/sass.svg',
-    langName: 'Syntactically Awesome Stylesheet - Sass',
+    langImage: 'assets/images/techstack-page/prometheus.png',
+    langName: 'Prometheus',
     langDesc:
-      '<li>Syntactically Awesome Stylesheet is a CSS pre-processor completely compatible with all versions of CSS.</li>',
+      '<li>Prometheus is a free software application used for event monitoring and alerting. It records metrics in a time series database built using an HTTP pull model, with flexible queries and real-time alerting.</li>',
+  },
+  {
+    langImage: 'assets/images/techstack-page/argo.png',
+    langName: 'Argo CD',
+    langDesc:
+      '<li>Argo CD is a declarative, GitOps continuous delivery tool for Kubernetes.</li>',
   },
   {
     langImage: 'assets/images/techstack-page/docker.png',
